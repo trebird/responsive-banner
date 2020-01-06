@@ -1,0 +1,46 @@
+html {
+  font-family: Georgia, serif;
+}
+
+.planet {
+  background-color: #495562;
+  color: #efefef;
+}
+
+.h1 {
+  font-weight: bold;
+}
+
+.btn {
+  border: 2px solid #efefef;
+  color: #efefef;
+  font-weight: bold;
+}
+
+.btn:hover {
+  border: 2px solid #efefef;
+  background-color: #efefef;
+  color: #495562;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .btn-box {
+    text-align: right;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .planet {
+    background-color: rgba(255, 0, 0, 0);
+    position: absolute;
+    bottom: 0;
+  }
+
+  .banner {
+    max-height: 500px
+  }
+
+}
